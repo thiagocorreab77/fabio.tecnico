@@ -1,0 +1,23 @@
+{
+
+  "name": "introducao node.js",
+  "version": "1.0.0",
+  "description": "Aprendendo node.js como desenvolvimento WEB",
+  "license": "ISC",
+  "author": "Thiago Correa",
+  "type": "commonjs",
+  "main": "server.js",
+  "$schema": "https://json.schemastore.org/package.json",
+  
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "nodemon"
+  },
+ 
+  "dependencies": {
+  "dotenv": "^16.5.0",
+  "ejs": "^3.1.10",
+  "express": "^5.1.0",
+  "nodemon": "^3.1.10"
+  }
+}
